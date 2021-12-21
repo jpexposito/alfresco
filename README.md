@@ -19,6 +19,8 @@ Este repositorio estará dedicado al trabajo con Alfresco, en sus versión ___Co
 
 
 ## Referencias
--
+- [Modelos de Documentos/Carpetas](https://docs.alfresco.com/content-services/6.2/admin/templates/).
+- [Alfresco & Maven](https://docs.alfresco.com/content-services/latest/develop/sdk/).
+- [Módulos en Alfresco](https://docs.alfresco.com/content-services/latest/develop/extension-packaging/).
 
 </div>
