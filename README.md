@@ -12,9 +12,10 @@ Este repositorio estará dedicado al trabajo con Alfresco, en sus versión ___Co
 
 ## Ide
 
-<img src="https://jpexposito.com/wp-content/uploads/2021/02/vsc-trans-1019x1024.png" width="200px"> | Visual Studio Code es multiplataforma, por lo que lo podemos encontrar disponible para Gnu/Linu, Windows y macOS. Se basa en Electron y NodeJS para el escritorio y se ejecuta en el motor de diseño Blink.
+<img src="https://jpexposito.com/wp-content/uploads/2021/02/vsc-trans-1019x1024.png" width="75px"> | Visual Studio Code es multiplataforma, por lo que lo podemos encontrar disponible para Gnu/Linu, Windows y macOS. Se basa en Electron y NodeJS para el escritorio y se ejecuta en el motor de diseño Blink.
 -- | --
- | [Paso para la instalación y extensiones necesarios](https://github.com/jpexposito/docencia/blob/master/ETS/tareas/tarea-ide-vscode.md)  
+
+[Paso para la instalación y extensiones necesarios](https://github.com/jpexposito/docencia/blob/master/ETS/tareas/tarea-ide-vscode.md).
 
 ## Índice
 - [Instalación Alfresco](instalacion).
