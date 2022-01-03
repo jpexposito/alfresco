@@ -1,29 +1,48 @@
 <div align="justify">
 
-# Instalación de Alfresco en Apache Tomcat <img width="100px" src="../../img/install-zip.png">
+# Instalación de Alfresco en Apache Tomcat.
+
+<div align="center">
+  <img width="150px" src="../../img/install-zip.png">
+</div>
 
 ## PreRequesitos
 
 La instalación de Alfresco a través de una distribución en __ZIP__ requiere tener el siguiente software instalado en el servidor;
-- Java: OpenJDK 11 recomendada.
-- Apache Tomcat.
-- Base de Datos: PostgreSQL or MySQL
-- ActiveMQ
-- LibreOffice
-- ImageMagick
+- __Java: OpenJDK 11 recomendada__.
+- __Apache Tomcat__.
+- __Base de Datos: PostgreSQL or MySQL__.
+- __ActiveMQ__.
+- __LibreOffice__.
+- __ImageMagick__.
 
 ## Descripción
-<!--
 
-En este apartado se describe como hacer la instalación de Alfresco en varios contextos, así como los elementos que participan en dicha instalación. Dado la distintas versiones de Alfresco, me centraré en describir la instalación de __Alfresco 6.2__, ya que se basa en la __SDK 4__ de Alfresco. De este modo la instalación de Alfresco 7, seguirá los mismos pasos ya que se basa en __SDK 4.3__, y los pasos son los mismos con las versiones correctas de __Alfresco Platadorma y Alfresco Share__.
--->
+  Para realizar la instalación de Alfresco debemos de tener instalados y configurados, los siguiente prerrequisitos:
+  - Java.
+  - Broker de Mensajes (ActiveMQ).
+  - Base de Datos (PostgreSQL o MySQL).
+  - Apache Tomcat. Instalación y verificación de que arranca de forma correcta.
+
+
+  Los pasos serán:
+  -  En primer lugar, debemos de registrarnos en el __portal de Alfresco__, descargar el __Zip__ con la distribución.
+  - Generar los [certificados](https://docs.alfresco.com/search-services/latest/config/keys/).
+  - Instalar y configurar el __Contenedor de Servicios de alfresco__.
+  - Instalar algún __Alfresco Module Packages (AMP)__, tal como: __Alfresco Share, Google Docs Integration, y Alfresco Office Services__.
+  - Configurar __ActiveMQ__.
+  - Instalar el software de tercero, utilizado por el __Contenedor de Servicios de alfresco__. Incluye: __LibreOffice, ImageMagick, y Alfresco PDF Renderer__.
+  - Revisa y testea todas la configuraciones. Los pasos serán:
+   - Arranca y configura la __BBDD__.
+   - Arranca y configura __ActiveMQ__.
+   - Arranca el __repositorio__.
+
+
+  En función de los puertos en los que este configurado, podrás acceder a cada uno de los servicios de los que dispone __Alfresco__.
 
 ## Referencias
 
-- [Instalación Alfresco Documentación]().
+- [Instalación de Alfresco a través de Tomcat](https://docs.alfresco.com/content-services/6.2/install/zip/).
+- [Generación y configuración de certificados en Alfresco](https://docs.alfresco.com/search-services/latest/config/keys/).
 
-
-## Tipos
-- [Instalación en Docker](install-alfresco-docker).
-- [Instalación a través de ZIp](zip).
 </div>

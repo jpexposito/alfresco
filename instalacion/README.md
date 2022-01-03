@@ -1,7 +1,10 @@
 <div align="justify">
 
-# Instalación de Alfresco <img width="100px" src="../img/install-alfresco.png">
+# Instalación de Alfresco
 
+<div align="center">
+  <img width="150px" src="../img/install-alfresco.png">
+</div>
 
 ## Descripción
 
@@ -9,6 +12,6 @@ En este apartado se describe como hacer la instalación de Alfresco en varios co
 
 
 ## Tipos
-- [Instalación en Docker](docker).
-- [Instalación a través de ZIp](zip).
+- [__Instalación en Docker__](docker).
+- [__Instalación a través de Zip__](zip).
 </div>
